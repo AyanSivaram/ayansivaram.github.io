@@ -1,58 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <meta charset="UTF-8">
-  <title>Ayan Sivaram</title>
+  <title>Musings — Ayan Sivaram</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      margin: 0;
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
       background: #fcfcfc;
       color: #2c2c2c;
       font-size: 14px;
+      font-weight: 300;
       line-height: 1.6;
       padding: 3rem 1.5rem;
-      position: relative;
-      min-height: 100vh;
-    }
-
-    .content {
       max-width: 680px;
       margin: 0 auto;
     }
-
+    a {
+        color: #0077cc; /* or just 'blue' */
+        text-decoration: none;
+        font-weight: 300;
+    }
+    .back-link {
+      font-size: 13px;
+      margin-bottom: 2rem;
+      display: inline-block;
+      color: #777;
+    }
     h1 {
       font-size: 2.0rem;
       margin-bottom: 1.5rem;
       font-weight: 300;
     }
-
-    .description {
-      font-size: 18px;
-      color: #252525;
-      margin-bottom: 1.5rem;
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 0.25rem;
+      margin-bottom: 0.75rem;
       font-weight: 300;
     }
-
-    details {
-      margin-top: 2rem;
-      border-top: 1px solid #ddd;
-      padding-top: 1rem;
+    .entry {
+      margin-bottom: 2.5rem;
     }
-
-    summary {
-      font-size: 1.1rem;
-      font-weight: 500;
-      cursor: pointer;
-      color: #333;
-      margin-bottom: 1rem;
+    .entry-date {
+      font-size: 12px;
+      color: #999;
     }
-
-    a {
-        color: #0077cc;
-        text-decoration: none;
-        font-weight: 300;
+    .entry-category {
+      font-size: 12px;
+      font-weight: 400;
+      color: #888;
+      text-transform: uppercase;
+      margin-top: 0.1rem;
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.04em;
+    }
+    .entry-content {
+      font-size: 13px;
+      color: #444;
     }
 
     .top-bar {
@@ -64,42 +70,10 @@
     }
 
     .top-left a {
-      margin-right: 2rem;
+      margin-right: 2rem; /* controls spacing between top nav links */
       color: #0077cc;
       font-weight: 300;
       text-decoration: none;
-    }
-
-    .footer {
-      max-width: 680px;
-      margin: 1.5rem auto 1.5rem auto;
-      font-size: 14px;
-      color: #999;
-      font-weight: 300;
-      padding: 0 0rem;
-    }
-
-    .footer-left {
-      line-height: 1.6;
-    }
-
-    .account-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1.2rem;
-      margin-top: 1rem;
-      margin-bottom: 1.5rem;
-    }
-
-    .account-links a {
-      color: #0077cc;
-      text-decoration: none;
-      font-weight: 300;
-    }
-
-    .footer-right {
-      margin-top: 2rem;
-      text-align: left;
     }
   </style>
 </head>
@@ -116,7 +90,7 @@
   <h1>Musings</h1>
 
   <ul style="font-size: 13px; margin-bottom: 2.5rem; padding-left: 0rem; list-style: none;">
-    <li><a href="archive/20241217.html">Opioids, abuse, and cancer: how companies misuse bankruptcy - 12/17/2024</a></li>
+    <li><a href="archive/20241217.html">Opiods, abuse, and cancer - 12/17/2024</a></li>
   </ul>
 
 </body>
